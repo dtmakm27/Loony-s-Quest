@@ -1,16 +1,7 @@
 ---
-title: "Loony's Quest"
-layout: post
-date: 2018-01-10 22:10
-tag: games
-image: https://farm5.staticflickr.com/4745/25906810628_a15cb239f1.jpg
-headerImage: true
-projects: true
-hidden: true # don't count this post in blog pagination
-description: "Programming game educational project"
-category: project
-author: dean
-externalLink: false
+
+![Screenshot](https://farm5.staticflickr.com/4745/25906810628_a15cb239f1.jpg)
+
 ---
   note: to try out the project in Unity, you have to run and install Setup.exe(it will install MinGW, CPPchecker, and the .bat .txt .cpp, ect... files listed below)  
 ---
