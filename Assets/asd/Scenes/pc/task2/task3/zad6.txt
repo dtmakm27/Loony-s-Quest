@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int n,  jylto,cherveno,zeleno;
+cin>>n;
+jylto = (n+1)/2;
+cherveno = (n/4)+1;
+zeleno = (n+2)/4;
+cout<<jylto<<" "<<cherveno<<" "<<zeleno<<endl;
+return 0;
+
+}

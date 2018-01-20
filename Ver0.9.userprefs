@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CoinRot.cs">
+    <Files>
+      <File FileName="Assets\Scripts\BookRot.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerController.cs" Line="85" Column="3" />
+      <File FileName="Assets\Scripts\BookBehaviour.js" Line="11" Column="1" />
+      <File FileName="Assets\Scripts\MainMenu.js" Line="21" Column="22" />
+      <File FileName="Assets\Scripts\CoinBehavior.cs" Line="3" Column="1" />
+      <File FileName="Assets\Scripts\CoinRot.cs" Line="4" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

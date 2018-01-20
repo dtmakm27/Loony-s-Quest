@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{94003582-1A44-F064-E79E-1D1254522712}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>E:/unitttyy/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>E:/unitttyy/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Prefabs&amp;Models\Enemy.js" />
+     <Compile Include="Assets\Prefabs&amp;Models\EnemyScript.js" />
+     <Compile Include="Assets\Prefabs&amp;Models\crosshair.js" />
+     <Compile Include="Assets\Prefabs&amp;Models\dddd2.js" />
+     <Compile Include="Assets\Prefabs&amp;Models\ignore bulls.js" />
+     <Compile Include="Assets\Projectile.js" />
+     <Compile Include="Assets\asd\FBX&amp;Prefabs\deathonenter.js" />
+     <Compile Include="Assets\asd\FBX&amp;Prefabs\dqsnogleda.js" />
+     <Compile Include="Assets\asd\FBX&amp;Prefabs\run.js" />
+     <Compile Include="Assets\asd\Scenes\ads.js" />
+     <Compile Include="Assets\asd\Scenes\cuplvl.js" />
+     <Compile Include="Assets\asd\Scenes\fade.js" />
+     <Compile Include="Assets\asd\Scenes\find n kill.js" />
+     <Compile Include="Assets\asd\Scenes\hint.js" />
+     <Compile Include="Assets\asd\Scenes\hint1.js" />
+     <Compile Include="Assets\asd\Scenes\kodove za instrukcii i vrati\a\a.js" />
+     <Compile Include="Assets\asd\Scenes\kodove za instrukcii i vrati\a\trigger a.js" />
+     <Compile Include="Assets\asd\Scenes\kodove za instrukcii i vrati\d\d.js" />
+     <Compile Include="Assets\asd\Scenes\kodove za instrukcii i vrati\d\trigger d.js" />
+     <Compile Include="Assets\asd\Scenes\kodove za instrukcii i vrati\shift\d3.js" />
+     <Compile Include="Assets\asd\Scenes\kodove za instrukcii i vrati\shift\shift.js" />
+     <Compile Include="Assets\asd\Scenes\kodove za instrukcii i vrati\shift\trigger shift.js" />
+     <Compile Include="Assets\asd\Scenes\kodove za instrukcii i vrati\space\space(con).js" />
+     <Compile Include="Assets\asd\Scenes\kodove za instrukcii i vrati\space\trigger space.js" />
+     <Compile Include="Assets\asd\Scenes\kodove za instrukcii i vrati\stuff\New Folder\dsd.js" />
+     <Compile Include="Assets\asd\Scenes\kodove za instrukcii i vrati\stuff\New Folder\nwsss.js" />
+     <Compile Include="Assets\asd\Scenes\kodove za instrukcii i vrati\stuff\ss.js" />
+     <Compile Include="Assets\asd\Scenes\kodove za instrukcii i vrati\stuff\ss1.js" />
+     <Compile Include="Assets\asd\Scenes\kodove za instrukcii i vrati\stuff\ss2.js" />
+     <Compile Include="Assets\asd\Scenes\neartext.js" />
+     <Compile Include="Assets\asd\Scenes\nesdo\POPUP.js" />
+     <Compile Include="Assets\asd\Scenes\nesdo\doro.js" />
+     <Compile Include="Assets\asd\Scenes\nesdo\doro1.js" />
+     <Compile Include="Assets\asd\Scenes\nesdo\doro2.js" />
+     <Compile Include="Assets\asd\Scenes\nesdo\movin.js" />
+     <Compile Include="Assets\asd\Scenes\pc\box.js" />
+     <Compile Include="Assets\asd\Scenes\pc\boxplace.js" />
+     <Compile Include="Assets\asd\Scenes\pc\esc.js" />
+     <Compile Include="Assets\asd\Scripts\Footsteps.js" />
+     <Compile Include="Assets\asd\Scripts\MainMenu.js" />
+     <Compile Include="Assets\asd\Scripts\PickUpSound.js" />
+     <Compile Include="Assets\asd\Scripts\Respawn.js" />
+     <Compile Include="Assets\asd\Scripts\Rotcoin.js" />
+     <Compile Include="Assets\asd\Scripts\deletesaveddata.js" />
+     <Compile Include="Assets\asd\Scripts\hidecursor.js" />
+     <Compile Include="Assets\asd\Scripts\ingamepause.js" />
+     <Compile Include="Assets\asd\Scripts\loadLevel.js" />
+     <Compile Include="Assets\asd\Scripts\pausemenu.js" />
+     <Compile Include="Assets\asd\Scripts\return.js" />
+     <Compile Include="Assets\asd\new\Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
+     <Compile Include="Assets\asd\new\Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
+     <Compile Include="Assets\asd\new\Assets\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
+     <Compile Include="Assets\asd\new\Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
+     <Compile Include="Assets\asd\new\Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <Compile Include="Assets\asd\new\Assets\Standard Assets\Particles\Legacy Particles\TimedObjectDestructor.js" />
+     <Compile Include="Assets\asd\new\Assets\Standard Assets\Scripts\Camera Scripts\MouseOrbit.js" />
+     <Compile Include="Assets\asd\new\Assets\Standard Assets\Scripts\Camera Scripts\SmoothFollow.js" />
+     <Compile Include="Assets\asd\new\Assets\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
+     <Compile Include="Assets\asd\new\Assets\Standard Assets\Scripts\General Scripts\DragRigidbody.js" />
+     <Compile Include="Assets\asd\vuprosi\mi\ddz\GUi.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 1\Vupros1old.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 1\vupros1.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 2\Vupros2.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 2\v2c.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 2\v2x.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 2\v2z.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 3\Vupros3old.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 3\vupros3.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 4\Vupros4old.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 4\vupros4.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 5\Vupros5old.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 5\vupros5.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 6\Vupros6old.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 6\vupros6.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 7\vupros7.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 7\vupros7old.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 8\vupros8.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 8\vupros8old.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 9\vupros9.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros 9\vupros9old.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros10\vupros10.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros10\vupros10old.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros11\vupros11.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros12\vupros12.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros13\vupros13.js" />
+     <Compile Include="Assets\asd\vuprosi\vupros14\vupros14.js" />
+     <Compile Include="Assets\bot\botshoot.js" />
+     <Compile Include="Assets\botfollowtest.js" />
+     <Compile Include="Assets\ddd.js" />
+     <Compile Include="Assets\ddd1.js" />
+     <Compile Include="Assets\dddbot.js" />
+     <Compile Include="Assets\dsad.js" />
+     <Compile Include="Assets\eksts.js" />
+     <Compile Include="Assets\jumpat.js" />
+     <Compile Include="Assets\kod.js" />
+     <Compile Include="Assets\new\new scripts\StopSign1.js" />
+     <Compile Include="Assets\new\new scripts\TaxiMove1.js" />
+     <Compile Include="Assets\new\new scripts\TaxiMoveOther.js" />
+     <Compile Include="Assets\new\new scripts\abook.js" />
+     <Compile Include="Assets\new\new scripts\abook1.js" />
+     <Compile Include="Assets\new\new scripts\txt\text.js" />
+     <Compile Include="Assets\new\new scripts\txt\text1.js" />
+     <Compile Include="Assets\new\new scripts\txt\text2.js" />
+     <Compile Include="Assets\new\new scripts\txt\text3.js" />
+     <Compile Include="Assets\new\new scripts\txt\text4.js" />
+     <Compile Include="Assets\new\new scripts\txt\text5.js" />
+     <Compile Include="Assets\new\new scripts\txt\text6.js" />
+     <Compile Include="Assets\new\new\AnimateTexture.js" />
+     <Compile Include="Assets\new\new\StopSign.js" />
+     <Compile Include="Assets\new\new\TaxiMove.js" />
+     <Compile Include="Assets\new\new\gm.js" />
+     <Compile Include="Assets\new\new\gm2.js" />
+     <Compile Include="Assets\new\new\gm3.js" />
+     <Compile Include="Assets\new\new\gm4.js" />
+     <Compile Include="Assets\new\new\idk.js" />
+     <Compile Include="Assets\noovoniivo.js" />
+     <Compile Include="Assets\openstuff.js" />
+     <Compile Include="Assets\pcin.js" />
+     <Compile Include="Assets\pcin1.js" />
+     <Compile Include="Assets\pcin2.js" />
+     <Compile Include="Assets\pcin3.js" />
+     <Compile Include="Assets\pcin4.js" />
+     <Compile Include="Assets\pcst.js" />
+     <Compile Include="Assets\pcst1.js" />
+     <Compile Include="Assets\planemove.js" />
+     <Compile Include="Assets\proipak.js" />
+     <Compile Include="Assets\quitgame.js" />
+     <Compile Include="Assets\saves\aaa.js" />
+     <Compile Include="Assets\saves\savek.js" />
+     <Compile Include="Assets\saves\savek1.js" />
+     <Compile Include="Assets\saves\savek2.js" />
+     <Compile Include="Assets\startgame.js" />
+     <Compile Include="Assets\stf\sc\AImovement.js" />
+     <Compile Include="Assets\stf\sc\Animation2D.js" />
+     <Compile Include="Assets\stf\sc\Animation3D.js" />
+     <Compile Include="Assets\stf\sc\AttackFireball.js" />
+     <Compile Include="Assets\stf\sc\DemoLevel.js" />
+     <Compile Include="Assets\stf\sc\HelperFadeout.js" />
+     <Compile Include="Assets\stf\sc\HelperJumpPad.js" />
+     <Compile Include="Assets\stf\sc\HelperPlatform.js" />
+     <Compile Include="Assets\stf\sc\HelperProjectile.js" />
+     <Compile Include="Assets\stf\sc\HelperRotate.js" />
+     <Compile Include="Assets\stf\sc\Joystick.js" />
+     <Compile Include="Assets\stf\sc\PlayerAttack.js" />
+     <Compile Include="Assets\stf\sc\PlayerCamera.js" />
+     <Compile Include="Assets\stf\sc\PlayerClimbing.js" />
+     <Compile Include="Assets\stf\sc\PlayerDead.js" />
+     <Compile Include="Assets\stf\sc\PlayerHealth.js" />
+     <Compile Include="Assets\stf\sc\PlayerJumping.js" />
+     <Compile Include="Assets\stf\sc\PlayerMovement.js" />
+     <Compile Include="Assets\stf\sc\PlayerUI.js" />
+     <Compile Include="Assets\stf\sc\TriggerAITurnaround.js" />
+     <Compile Include="Assets\stf\sc\TriggerAttack.js" />
+     <Compile Include="Assets\stf\sc\TriggerCamera.js" />
+     <Compile Include="Assets\stf\sc\TriggerClimbing.js" />
+     <Compile Include="Assets\stf\sc\TriggerDeadZone.js" />
+     <Compile Include="Assets\stf\sc\TriggerGoal.js" />
+     <Compile Include="Assets\stf\sc\TriggerPickupItem.js" />
+     <Compile Include="Assets\stf\sc\TriggerRespawner.js" />
+     <Compile Include="Assets\stf\sc\cheatMaster.js" />
+     <Compile Include="Assets\stf\sc\cheatMasterAddon.js" />
+     <Compile Include="Assets\stf\t\DoodleJumpishFiles\create_jumppads.js" />
+     <Compile Include="Assets\stf\t\DoodleJumpishFiles\jumptrough_jumppad.js" />
+     <Compile Include="Assets\stf\t\SplitscreenFiles\ColorMyPlayer.js" />
+     <Compile Include="Assets\stf\t\SplitscreenFiles\TriggerSetActive.js" />
+     <Compile Include="Assets\stf\t\advancedPlattformingFiles\ForceTrigger.js" />
+     <Compile Include="Assets\timestop.js" />
+     <Compile Include="Assets\timestop1.js" />
+     <Compile Include="Assets\udurpc.js" />
+     <Compile Include="Assets\vurt.js" />
+     <Compile Include="Assets\yiel.js" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Scenes\_skybox info 2.txt" />
+     <None Include="Assets\Scenes\uroci\ur2k\uroc1h 1.txt" />
+     <None Include="Assets\Scenes\urks22.txt" />
+     <None Include="Assets\asd\Scenes\pc\task2\task3\zad6.txt" />
+     <None Include="Assets\Scenes\uroci\ur3k\uroc1h 2.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Scenes\uroci\ur3k\uroc3.txt" />
+     <None Include="Assets\Scenes\ddd.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Skyboxes\uroc1.txt" />
+     <None Include="Assets\asd\Scenes\pc\task2\task3\zad5.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Skyboxes\_skybox info 2.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Scenes\uroci\ur4k\uroc1h 3.txt" />
+     <None Include="Assets\Scenes\urks3.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Scenes\uroci\ur2k\uroc2.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Skyboxes\uroc1h.txt" />
+     <None Include="Assets\Scenes\uroci\ur2k\pels\uroc3.txt" />
+     <None Include="Assets\Scenes\urks2.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Scenes\uroci\ur4k\uroc4.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\asd\Scenes\pc\task2\task3\zad4.txt" />
+     <None Include="Assets\asd\Scenes\pc\task2\asdf1.txt" />
+     <None Include="Assets\asd\Scenes\pc\task2\zad2.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Scenes\_skybox info 3.txt" />
+     <None Include="Assets\Scenes\_skybox info 1.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\asd\Scenes\pc\task2\zad3.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>E:/unitttyy/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

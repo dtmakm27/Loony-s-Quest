@@ -1,0 +1,38 @@
+#include  <iostream>
+using  namespace  std;
+
+int main()
+{
+    int n, jylto = 0, cherveno=0, zeleno=0;
+    cin>>n;
+
+    for (int i = 1; i<=n;i+=2)
+    {
+        jylto++;
+    }
+
+    if(n%2==0)
+    {
+        for (int i = 0; i<=n+1;i+=4)
+        {
+            cherveno++;
+        }
+    }
+
+    else
+    {
+        for (int i = 0; i<=n;i+=4)
+        {
+            cherveno++;
+        }
+    }
+
+
+    for (int i = 2; i<=n;i+=4)
+    {
+        zeleno++;
+    }
+
+    cout<<jylto<<" "<<cherveno<<" "<<zeleno<<endl;
+return 0;
+}

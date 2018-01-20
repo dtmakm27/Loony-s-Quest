@@ -1,0 +1,26 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\pausemenu.js">
+    <Files>
+      <File FileName="Assets\Scripts\MainMenu.js" Line="29" Column="2" />
+      <File FileName="Assets\mi\Right\ds.cs" Line="1" Column="1" />
+      <File FileName="Assets\mi\Wrong\greshno.cs" Line="1" Column="1" />
+      <File FileName="Assets\vuprosi\vupros 3\Vupros3.js" Line="1" Column="1" />
+      <File FileName="Assets\vuprosi\vupros 4\Vupros4.js" Line="1" Column="1" />
+      <File FileName="Assets\vuprosi\vupros 5\Vupros5.js" Line="1" Column="1" />
+      <File FileName="Assets\vuprosi\vupros 6\Vupros6.js" Line="1" Column="1" />
+      <File FileName="Assets\vuprosi\vupros 1\Vupros1.js" Line="1" Column="1" />
+      <File FileName="Assets\vuprosi\vupros 2\Vupros2.js" Line="1" Column="1" />
+      <File FileName="Assets\vuprosi\vupros 7\vupros7.js" Line="49" Column="3" />
+      <File FileName="Assets\vuprosi\vupros 7\shirs6.cs" Line="1" Column="1" />
+      <File FileName="Assets\vuprosi\vupros 6\shirs5.cs" Line="1" Column="1" />
+      <File FileName="Assets\vuprosi\vupros 8\vupros8.js" Line="24" Column="16" />
+      <File FileName="Assets\vuprosi\vupros 8\shirs7.cs" Line="4" Column="20" />
+      <File FileName="Assets\pausemenu.js" Line="20" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

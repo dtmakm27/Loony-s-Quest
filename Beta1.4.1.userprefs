@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CoinBehavior.cs">
+    <Files>
+      <File FileName="Assets\LoadLevelGUIScript.cs" Line="12" Column="2" />
+      <File FileName="Assets\deletesaveddata.js" Line="3" Column="27" />
+      <File FileName="Assets\Scripts\Sawblade.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BookRot.cs" Line="4" Column="21" />
+      <File FileName="Assets\Scripts\CoinBehavior.cs" Line="9" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

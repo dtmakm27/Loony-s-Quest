@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+    long long int n,e,br=0,sum1=0,sum2=0;
+    cin>>n;
+    while (n)
+    {
+        e=n%10;
+        br++;
+        if(br%2==0)sum1+=e;
+        else sum2+=e;
+        n/=10;
+    }
+    if(br%2==0)cout<<sum1<<endl;
+    else cout<<sum2<<endl;
+    return 0;
+}

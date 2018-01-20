@@ -1,0 +1,37 @@
+#include<iostream>
+#include<math.h>
+		
+using namespace std;
+int main()
+{
+int brUch, brBon;
+float lvK;
+cin>>brUch>>brBon>>lvK;
+float cenaBon = lvK/brBon;
+float pariBon = brUch*cenaBon;
+float broiKut = pariBon/lvK;
+broiKut= ceil(broiKut);
+pariBon = broiKut*lvK;
+
+if ( pariBon<=10)
+{
+    pariBon = 10;
+    cout<<pariBon;
+}
+else if (pariBon<100)
+{
+    pariBon = pariBon/10;
+    pariBon = ceil(pariBon);
+    pariBon = pariBon*10;
+    cout<<pariBon;
+}
+else
+{
+      pariBon = pariBon/100;
+    pariBon = ceil(pariBon);
+    pariBon = pariBon*100;
+    cout<<pariBon;
+}
+
+return 0;
+}

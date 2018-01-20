@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int galoni;
+cin>>galoni;
+long long litriml = galoni*1000*3.785;
+int ml = litriml%1000;
+int l = litriml/1000;
+cout<<l<<" "<<ml<<endl;
+return 0;
+}

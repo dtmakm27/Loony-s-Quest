@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{0471602D-97B2-4CE5-AC83-EA8E75FE7FF2}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>E:/unitttyy/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>E:/unitttyy/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\PLAYRHIT.cs" />
+     <Compile Include="Assets\PlayerController1.cs" />
+     <Compile Include="Assets\PlayerPhysics1.cs" />
+     <Compile Include="Assets\Prefabs&amp;Models\shooot.cs" />
+     <Compile Include="Assets\Scenes\dlight.cs" />
+     <Compile Include="Assets\Scenes\fo.cs" />
+     <Compile Include="Assets\Scenes\fo1.cs" />
+     <Compile Include="Assets\Scenes\noviqmiscriptzaubivanenaneshta.cs" />
+     <Compile Include="Assets\Scenes\ottest\testaata.cs" />
+     <Compile Include="Assets\Scenes\tsk3\novokomp113.cs" />
+     <Compile Include="Assets\Scenes\tsk3\novokomp122.cs" />
+     <Compile Include="Assets\Scenes\uroci\ur2k\debuge1.cs" />
+     <Compile Include="Assets\Scenes\uroci\ur2k\uroc1.cs" />
+     <Compile Include="Assets\Scenes\uroci\ur2k\urocs1.cs" />
+     <Compile Include="Assets\Scenes\uroci\ur3k\debuge2.cs" />
+     <Compile Include="Assets\Scenes\uroci\ur3k\uroc2.cs" />
+     <Compile Include="Assets\Scenes\uroci\ur3k\urocs2.cs" />
+     <Compile Include="Assets\Scenes\uroci\ur4k\debuge3.cs" />
+     <Compile Include="Assets\Scenes\uroci\ur4k\uroc3.cs" />
+     <Compile Include="Assets\Scenes\uroci\ur4k\urocs3.cs" />
+     <Compile Include="Assets\Scenes\urocks1.cs" />
+     <Compile Include="Assets\Scenes\urocks2.cs" />
+     <Compile Include="Assets\Scenes\urocks3.cs" />
+     <Compile Include="Assets\SkinTest.cs" />
+     <Compile Include="Assets\anovon.cs" />
+     <Compile Include="Assets\asd\FBX&amp;Prefabs\Try_Again.cs" />
+     <Compile Include="Assets\asd\FBX&amp;Prefabs\end.cs" />
+     <Compile Include="Assets\asd\FBX&amp;Prefabs\end1.cs" />
+     <Compile Include="Assets\asd\Scenes\Kompilator.cs" />
+     <Compile Include="Assets\asd\Scenes\SpawnObstacle.cs" />
+     <Compile Include="Assets\asd\Scenes\adsdasads.cs" />
+     <Compile Include="Assets\asd\Scenes\ddd.cs" />
+     <Compile Include="Assets\asd\Scenes\dooranim1.cs" />
+     <Compile Include="Assets\asd\Scenes\kodove za instrukcii i vrati\stuff\boxhide.cs" />
+     <Compile Include="Assets\asd\Scenes\loadlevel\dd\level2.cs" />
+     <Compile Include="Assets\asd\Scenes\loadlevel\dd\level3.cs" />
+     <Compile Include="Assets\asd\Scenes\loadlevel\dd\levelload1.cs" />
+     <Compile Include="Assets\asd\Scenes\loadlevel\dd\returne.cs" />
+     <Compile Include="Assets\asd\Scenes\loadlevel\dd\returne1.cs" />
+     <Compile Include="Assets\asd\Scenes\loadlevel\dd\vratanivo1.cs" />
+     <Compile Include="Assets\asd\Scenes\loadlevel\ending.cs" />
+     <Compile Include="Assets\asd\Scenes\nesdo\box.cs" />
+     <Compile Include="Assets\asd\Scenes\novokomp.cs" />
+     <Compile Include="Assets\asd\Scenes\opendoor.cs" />
+     <Compile Include="Assets\asd\Scenes\pc\boxplace.cs" />
+     <Compile Include="Assets\asd\Scenes\pc\button.cs" />
+     <Compile Include="Assets\asd\Scenes\pc\debuginglgog.cs" />
+     <Compile Include="Assets\asd\Scenes\pc\lvl\taskselect.cs" />
+     <Compile Include="Assets\asd\Scenes\pc\novokomp1.cs" />
+     <Compile Include="Assets\asd\Scenes\pc\novokomp11.cs" />
+     <Compile Include="Assets\asd\Scenes\pc\novokomp112.cs" />
+     <Compile Include="Assets\asd\Scenes\pc\task2\novokomp12.cs" />
+     <Compile Include="Assets\asd\Scenes\pc\task2\novokomp1i.cs" />
+     <Compile Include="Assets\asd\Scenes\pc\task2\task3\novokomp131.cs" />
+     <Compile Include="Assets\asd\Scenes\pc\task2\task3\novokomp1i11.cs" />
+     <Compile Include="Assets\asd\Scripts\BookRot.cs" />
+     <Compile Include="Assets\asd\Scripts\CoinBehavior.cs" />
+     <Compile Include="Assets\asd\Scripts\CoinController.cs" />
+     <Compile Include="Assets\asd\Scripts\Entity.cs" />
+     <Compile Include="Assets\asd\Scripts\GameCamera.cs" />
+     <Compile Include="Assets\asd\Scripts\GameManager.cs" />
+     <Compile Include="Assets\asd\Scripts\LoadLevelGUIScript.cs" />
+     <Compile Include="Assets\asd\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\asd\Scripts\PlayerPhysics.cs" />
+     <Compile Include="Assets\asd\Scripts\Ragdoll.cs" />
+     <Compile Include="Assets\asd\Scripts\Sawblade.cs" />
+     <Compile Include="Assets\asd\Scripts\go2level.cs" />
+     <Compile Include="Assets\asd\new\Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\asd\new\Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
+     <Compile Include="Assets\asd\new\Assets\Standard Assets\Scripts\Utility Scripts\CombineChildren.cs" />
+     <Compile Include="Assets\asd\new\Assets\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" />
+     <Compile Include="Assets\asd\new\Assets\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
+     <Compile Include="Assets\asd\vuprosi\mi\Right\ds.cs" />
+     <Compile Include="Assets\asd\vuprosi\mi\Wrong\greshno.cs" />
+     <Compile Include="Assets\asd\vuprosi\vupros 1\shirs.cs" />
+     <Compile Include="Assets\asd\vuprosi\vupros 2\shirs1.cs" />
+     <Compile Include="Assets\asd\vuprosi\vupros 3\shirs2.cs" />
+     <Compile Include="Assets\asd\vuprosi\vupros 4\shirs3.cs" />
+     <Compile Include="Assets\asd\vuprosi\vupros 5\shirs4.cs" />
+     <Compile Include="Assets\asd\vuprosi\vupros 6\shirs5.cs" />
+     <Compile Include="Assets\asd\vuprosi\vupros 7\shirs6.cs" />
+     <Compile Include="Assets\asd\vuprosi\vupros 8\shirs7.cs" />
+     <Compile Include="Assets\asd\vuprosi\vupros 9\shirs8.cs" />
+     <Compile Include="Assets\asd\vuprosi\vupros10\shirs9.cs" />
+     <Compile Include="Assets\asd\vuprosi\vupros11\shirs10.cs" />
+     <Compile Include="Assets\asd\vuprosi\vupros12\shirs11.cs" />
+     <Compile Include="Assets\asd\vuprosi\vupros13\shirs12.cs" />
+     <Compile Include="Assets\asd\vuprosi\vupros14\shirs13.cs" />
+     <Compile Include="Assets\bot\botshot.cs" />
+     <Compile Include="Assets\bullettt.cs" />
+     <Compile Include="Assets\deactivate.cs" />
+     <Compile Include="Assets\deactivate1.cs" />
+     <Compile Include="Assets\enmy.cs" />
+     <Compile Include="Assets\izkluchiigra.cs" />
+     <Compile Include="Assets\koca.cs" />
+     <Compile Include="Assets\new\anim.cs" />
+     <Compile Include="Assets\new\dooranim.cs" />
+     <Compile Include="Assets\pojshta\animation.cs" />
+     <Compile Include="Assets\pojshta\animation1.cs" />
+     <Compile Include="Assets\pojshta\giu.cs" />
+     <Compile Include="Assets\pojshta\giu1.cs" />
+     <Compile Include="Assets\pojshta\giu2.cs" />
+     <Compile Include="Assets\pojshta\giu3.cs" />
+     <Compile Include="Assets\pojshta\giu4.cs" />
+     <Compile Include="Assets\pojshta\pismi.cs" />
+     <Compile Include="Assets\pojshta\s.cs" />
+     <Compile Include="Assets\pojshta\s1.cs" />
+     <Compile Include="Assets\pojshta\s2.cs" />
+     <Compile Include="Assets\pojshta\sadding.cs" />
+     <Compile Include="Assets\shoot.cs" />
+     <Compile Include="Assets\shot.cs" />
+     <Compile Include="Assets\startgame.cs" />
+     <Compile Include="Assets\zauroci\debuge.cs" />
+     <Compile Include="Assets\zauroci\uroc.cs" />
+     <Compile Include="Assets\zauroci\urocs.cs" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Scenes\_skybox info 2.txt" />
+     <None Include="Assets\Scenes\uroci\ur2k\uroc1h 1.txt" />
+     <None Include="Assets\Scenes\urks22.txt" />
+     <None Include="Assets\asd\Scenes\pc\task2\task3\zad6.txt" />
+     <None Include="Assets\Scenes\uroci\ur3k\uroc1h 2.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Scenes\uroci\ur3k\uroc3.txt" />
+     <None Include="Assets\Scenes\ddd.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Skyboxes\uroc1.txt" />
+     <None Include="Assets\asd\Scenes\pc\task2\task3\zad5.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Skyboxes\_skybox info 2.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Scenes\uroci\ur4k\uroc1h 3.txt" />
+     <None Include="Assets\Scenes\urks3.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Scenes\uroci\ur2k\uroc2.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Skyboxes\uroc1h.txt" />
+     <None Include="Assets\Scenes\uroci\ur2k\pels\uroc3.txt" />
+     <None Include="Assets\Scenes\urks2.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Scenes\uroci\ur4k\uroc4.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\asd\Scenes\pc\task2\task3\zad4.txt" />
+     <None Include="Assets\asd\Scenes\pc\task2\asdf1.txt" />
+     <None Include="Assets\asd\Scenes\pc\task2\zad2.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Scenes\_skybox info 3.txt" />
+     <None Include="Assets\Scenes\_skybox info 1.txt" />
+     <None Include="Assets\asd\new\Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\asd\Scenes\pc\task2\zad3.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>E:/unitttyy/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

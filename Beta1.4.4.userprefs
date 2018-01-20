@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\asd\Scenes\loadlevel\dd\returne.cs">
+    <Files>
+      <File FileName="Assets\asd\Scenes\kodove za instrukcii i vrati\stuff\boxhide.cs" Line="4" Column="1" />
+      <File FileName="Assets\asd\Scripts\return.js" Line="1" Column="1" />
+      <File FileName="Assets\asd\Scripts\LoadLevelGUIScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\asd\Scenes\kodove za instrukcii i vrati\stuff\ss1.js" Line="1" Column="1" />
+      <File FileName="Assets\asd\Scenes\kodove za instrukcii i vrati\stuff\ss.js" Line="1" Column="1" />
+      <File FileName="Assets\asd\Scripts\GameManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\asd\Scenes\loadlevel\dd\level2.cs" Line="8" Column="37" />
+      <File FileName="Assets\asd\Scenes\kodove za instrukcii i vrati\stuff\ss2.js" Line="1" Column="1" />
+      <File FileName="Assets\asd\Scenes\loadlevel\dd\returne.cs" Line="11" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,204 @@
+string debuginfo;
+	public GUIStyle st4;
+	private debuge1 myLight;
+	bool greshka = true;
+	public Vector2 scrollview3 = Vector2.zero;
+
+
+
+
+
+
+
+
+		myLight = GetComponent<debuge1>();
+
+
+
+
+
+
+
+
+void debug () {
+		GUILayout.BeginArea (new Rect (Screen.width/2.81f,Screen.height/1.5f,Screen.width/1.84f,Screen.height/5.5f));
+		scrollview3=GUILayout.BeginScrollView(scrollview3);
+		kodirane = GUILayout.TextArea (kodirane,st4);
+		GUILayout.EndScrollView();
+		GUILayout.EndArea ();
+		
+		
+		
+	}
+	void Sravni () {
+				if (GUI.Button (new Rect (Screen.width / 1.9f, Screen.height / 1.19f, Screen.width / 8f, Screen.height / 3f), q, st1)) {
+			
+			
+			
+			
+						Process proc = null;
+						try {
+								string targetDir = string.Format (@"C:\Loony's quest\tasks\ur2");
+								proc = new Process ();
+								proc.StartInfo.WorkingDirectory = targetDir;
+								proc.StartInfo.FileName = "hidecmd.vbs";
+								proc.StartInfo.Arguments = string.Format ("10");
+								proc.StartInfo.CreateNoWindow = false;
+								proc.Start ();
+								proc.WaitForExit ();
+						} catch {
+						}
+			
+						string otgovor1 = System.IO.File.ReadAllText (@"C:\Loony's quest\tasks\ur2\ur2.001.sol");
+						string izhod1 = System.IO.File.ReadAllText (@"C:\Loony's quest\tasks\ur2\ur2.001.txt");
+			
+						if (otgovor1 == izhod1) {
+								tik1.gameObject.SetActive (true);
+								sdf.gameObject.SetActive (true);
+						} else
+								hiks1.gameObject.SetActive (true);
+			
+				}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		GUILayout.BeginArea (new Rect (Screen.width/2.81f,Screen.height/15,Screen.width/1.84f,Screen.height/1.7f));
+
+
+
+
+
+
+if (GUI.Button (new Rect (Screen.width/1.5f,Screen.height/1.275f,Screen.width/5f,Screen.height/3),d,st1)) {
+			System.IO.File.WriteAllText (@"C:\Loony's quest\tasks\ur2\ur2.cpp", kodirane);
+			System.IO.File.Delete(@"C:\Loony's quest\tasks\ur2\ur2.001.txt");
+			System.IO.File.Delete(@"C:\Loony's quest\tasks\ur2\ur2.002.txt");
+			//greshka = false;
+			System.IO.File.Delete (@"C:\Loony's quest\tasks\ur2\a.txt");
+			
+			Process proc = null;
+			
+			try {
+				string targetDir = string.Format (@"C:\Loony's quest\tasks\ur2\");
+				proc = new Process ();
+				proc.StartInfo.WorkingDirectory = targetDir;
+				proc.StartInfo.FileName = "xc.bat";
+				proc.StartInfo.Arguments = string.Format ("10");
+				proc.StartInfo.CreateNoWindow = false;
+				proc.Start ();
+				proc.WaitForExit ();
+			} catch {
+			}
+			
+			debuginfo = System.IO.File.ReadAllText (@"C:\Loony's quest\tasks\ur2\a.txt");
+			if(debuginfo.Contains("(error)")) {
+				greshka = true;
+			}
+			else {//(error) 
+				greshka = false;
+			} 
+			myLight.enabled = true;
+			
+		}
+	
+
+
+///////////////////////////////
+			;
+		if (greshka == false) {
+			Sravni();
+		}
+
+//na mqstoto na sravni
+
+		if (greshka == false) {
+			Sravni();
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		using UnityEngine;
+using System.Collections;
+
+public class debuge1 : MonoBehaviour {
+	public GUIStyle st4;
+	
+	string kodirane;
+	string adfs = "urok";
+	public Vector2 scrollview3 = Vector2.zero;
+	
+	
+	string debuginfo;
+	
+	// Use this for initialization
+	void Update () {
+		
+		kodirane = System.IO.File.ReadAllText (@"C:\Loony's quest\tasks\ur1\a.txt");
+		
+		
+	}
+	void dag() {
+		GUILayout.BeginArea (new Rect (Screen.width/2.81f,Screen.height/1.5f,Screen.width/1.84f,Screen.height/5.5f));
+		scrollview3=GUILayout.BeginScrollView(scrollview3);
+		kodirane = GUILayout.TextArea (kodirane,st4);
+		GUILayout.EndScrollView();
+		GUILayout.EndArea ();
+		
+	}
+	// Update is called once per frame
+	void OnGUI () {
+		dag ();
+		
+		
+	}
+}
+
+		
+		
+		
+		
+		
+		
+
