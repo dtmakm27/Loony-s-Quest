@@ -8,8 +8,11 @@
   
 # Summary
 
-The main goal is to create a fun way of improving IT education. It includes coding in-game with error checks and compilation(check out in-game programming challenges), learning programming material, answering programming questions, and playing a fun and entertaining game!
+My main goal is to create a fun way of improving IT education. It includes coding in-game with error checks and compilation(check out in-game programming challenges), learning programming material, answering programming questions, and playing a fun and entertaining game!
+
 The target audience is children from the 4th to 6th grade. I chose an elephant to represent our main character because many of the Bulgarian IT competitions tasks include this fictional character Loony. The aim of the game is to make the process of education in the IT sphere fun.
+
+The game was given to my school where it is being further developed by other students and students played it in programming classes.
 
 ---
 
